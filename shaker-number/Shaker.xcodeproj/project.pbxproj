@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440AD4DA16FF4A4200E2D203 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 440AD4D916FF4A4200E2D203 /* icon@2x.png */; };
+		440AD4DC16FF4CB000E2D203 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 440AD4DB16FF4CB000E2D203 /* icon.png */; };
+		440AD4E516FF4EB700E2D203 /* ShakerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 440AD4E416FF4EB700E2D203 /* ShakerUtil.m */; };
+		440D70A916FECDBB00EDEACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440D70A816FECDBB00EDEACE /* UIKit.framework */; };
+		440D70AB16FECDBB00EDEACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440D70AA16FECDBB00EDEACE /* Foundation.framework */; };
+		440D70AD16FECDBB00EDEACE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440D70AC16FECDBB00EDEACE /* CoreGraphics.framework */; };
+		440D70B316FECDBB00EDEACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 440D70B116FECDBB00EDEACE /* InfoPlist.strings */; };
+		440D70B516FECDBB00EDEACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D70B416FECDBB00EDEACE /* main.m */; };
+		440D70B916FECDBB00EDEACE /* ShakerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D70B816FECDBB00EDEACE /* ShakerAppDelegate.m */; };
+		440D70BC16FECDBB00EDEACE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440D70BA16FECDBB00EDEACE /* MainStoryboard.storyboard */; };
+		440D70BF16FECDBB00EDEACE /* ShakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D70BE16FECDBB00EDEACE /* ShakerViewController.m */; };
+		440D70C916FECF3700EDEACE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440D70C816FECF3700EDEACE /* AudioToolbox.framework */; };
+		440D70CB16FED35700EDEACE /* shake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440D70CA16FED35700EDEACE /* shake.mp3 */; };
+		440D70E916FEF70000EDEACE /* ConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D70E816FEF70000EDEACE /* ConfigurationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		440AD4D916FF4A4200E2D203 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		440AD4DB16FF4CB000E2D203 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		440AD4E316FF4EAE00E2D203 /* ShakerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakerUtil.h; sourceTree = "<group>"; };
+		440AD4E416FF4EB700E2D203 /* ShakerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakerUtil.m; sourceTree = "<group>"; };
+		440D70A416FECDBB00EDEACE /* 摇摇选数字.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "摇摇选数字.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		440D70A816FECDBB00EDEACE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		440D70AA16FECDBB00EDEACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		440D70AC16FECDBB00EDEACE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		440D70B016FECDBB00EDEACE /* Shaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shaker-Info.plist"; sourceTree = "<group>"; };
+		440D70B216FECDBB00EDEACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		440D70B416FECDBB00EDEACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		440D70B616FECDBB00EDEACE /* Shaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shaker-Prefix.pch"; sourceTree = "<group>"; };
+		440D70B716FECDBB00EDEACE /* ShakerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakerAppDelegate.h; sourceTree = "<group>"; };
+		440D70B816FECDBB00EDEACE /* ShakerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakerAppDelegate.m; sourceTree = "<group>"; };
+		440D70BB16FECDBB00EDEACE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		440D70BD16FECDBB00EDEACE /* ShakerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakerViewController.h; sourceTree = "<group>"; };
+		440D70BE16FECDBB00EDEACE /* ShakerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakerViewController.m; sourceTree = "<group>"; };
+		440D70C816FECF3700EDEACE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		440D70CA16FED35700EDEACE /* shake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shake.mp3; sourceTree = "<group>"; };
+		440D70E716FEF70000EDEACE /* ConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationViewController.h; sourceTree = "<group>"; };
+		440D70E816FEF70000EDEACE /* ConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		440D70A116FECDBB00EDEACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440D70C916FECF3700EDEACE /* AudioToolbox.framework in Frameworks */,
+				440D70A916FECDBB00EDEACE /* UIKit.framework in Frameworks */,
+				440D70AB16FECDBB00EDEACE /* Foundation.framework in Frameworks */,
+				440D70AD16FECDBB00EDEACE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		440D709916FECDBB00EDEACE = {
+			isa = PBXGroup;
+			children = (
+				440AD4DB16FF4CB000E2D203 /* icon.png */,
+				440AD4D916FF4A4200E2D203 /* icon@2x.png */,
+				440D70CA16FED35700EDEACE /* shake.mp3 */,
+				440D70AE16FECDBB00EDEACE /* shaker */,
+				440D70A716FECDBB00EDEACE /* Frameworks */,
+				440D70A516FECDBB00EDEACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		440D70A516FECDBB00EDEACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440D70A416FECDBB00EDEACE /* 摇摇选数字.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		440D70A716FECDBB00EDEACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				440D70C816FECF3700EDEACE /* AudioToolbox.framework */,
+				440D70A816FECDBB00EDEACE /* UIKit.framework */,
+				440D70AA16FECDBB00EDEACE /* Foundation.framework */,
+				440D70AC16FECDBB00EDEACE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		440D70AE16FECDBB00EDEACE /* shaker */ = {
+			isa = PBXGroup;
+			children = (
+				440AD4E416FF4EB700E2D203 /* ShakerUtil.m */,
+				440AD4E316FF4EAE00E2D203 /* ShakerUtil.h */,
+				440D70B716FECDBB00EDEACE /* ShakerAppDelegate.h */,
+				440D70B816FECDBB00EDEACE /* ShakerAppDelegate.m */,
+				440D70BA16FECDBB00EDEACE /* MainStoryboard.storyboard */,
+				440D70BD16FECDBB00EDEACE /* ShakerViewController.h */,
+				440D70BE16FECDBB00EDEACE /* ShakerViewController.m */,
+				440D70E716FEF70000EDEACE /* ConfigurationViewController.h */,
+				440D70E816FEF70000EDEACE /* ConfigurationViewController.m */,
+				440D70AF16FECDBB00EDEACE /* Supporting Files */,
+			);
+			path = shaker;
+			sourceTree = "<group>";
+		};
+		440D70AF16FECDBB00EDEACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				440D70B016FECDBB00EDEACE /* Shaker-Info.plist */,
+				440D70B116FECDBB00EDEACE /* InfoPlist.strings */,
+				440D70B416FECDBB00EDEACE /* main.m */,
+				440D70B616FECDBB00EDEACE /* Shaker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		440D70A316FECDBB00EDEACE /* Shaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440D70C216FECDBB00EDEACE /* Build configuration list for PBXNativeTarget "Shaker" */;
+			buildPhases = (
+				440D70A016FECDBB00EDEACE /* Sources */,
+				440D70A116FECDBB00EDEACE /* Frameworks */,
+				440D70A216FECDBB00EDEACE /* Resources */,
+				44D8DDA316FF112700FE05B2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shaker;
+			productName = finder;
+			productReference = 440D70A416FECDBB00EDEACE /* 摇摇选数字.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		440D709B16FECDBB00EDEACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Shaker;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = zhaolei;
+			};
+			buildConfigurationList = 440D709E16FECDBB00EDEACE /* Build configuration list for PBXProject "Shaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 440D709916FECDBB00EDEACE;
+			productRefGroup = 440D70A516FECDBB00EDEACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				440D70A316FECDBB00EDEACE /* Shaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		440D70A216FECDBB00EDEACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440D70B316FECDBB00EDEACE /* InfoPlist.strings in Resources */,
+				440D70BC16FECDBB00EDEACE /* MainStoryboard.storyboard in Resources */,
+				440D70CB16FED35700EDEACE /* shake.mp3 in Resources */,
+				440AD4DA16FF4A4200E2D203 /* icon@2x.png in Resources */,
+				440AD4DC16FF4CB000E2D203 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44D8DDA316FF112700FE05B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\n\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n\n/Users/zhaolei/Documents/crack/xcode/gen_entitlements.py \"your.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\n\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\n\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		440D70A016FECDBB00EDEACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440D70B516FECDBB00EDEACE /* main.m in Sources */,
+				440D70B916FECDBB00EDEACE /* ShakerAppDelegate.m in Sources */,
+				440D70BF16FECDBB00EDEACE /* ShakerViewController.m in Sources */,
+				440D70E916FEF70000EDEACE /* ConfigurationViewController.m in Sources */,
+				440AD4E516FF4EB700E2D203 /* ShakerUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		440D70B116FECDBB00EDEACE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				440D70B216FECDBB00EDEACE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		440D70BA16FECDBB00EDEACE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				440D70BB16FECDBB00EDEACE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		440D70C016FECDBB00EDEACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		440D70C116FECDBB00EDEACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		440D70C316FECDBB00EDEACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shaker/Shaker-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/shaker/Shaker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "摇摇选数字";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		440D70C416FECDBB00EDEACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shaker/Shaker-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/shaker/Shaker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "摇摇选数字";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		440D709E16FECDBB00EDEACE /* Build configuration list for PBXProject "Shaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440D70C016FECDBB00EDEACE /* Debug */,
+				440D70C116FECDBB00EDEACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440D70C216FECDBB00EDEACE /* Build configuration list for PBXNativeTarget "Shaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440D70C316FECDBB00EDEACE /* Debug */,
+				440D70C416FECDBB00EDEACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 440D709B16FECDBB00EDEACE /* Project object */;
+}
